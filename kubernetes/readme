@@ -1,0 +1,11 @@
+
+
+kubectl apply -f db-pod.yaml 
+kubectl get pod
+kubectl apply -f db-service.yaml 
+kubectl get svc
+
+kubectl apply -f web-pod.yaml 
+kubectl get pod
+ kubectl apply -f web-service.yaml 
+ kubectl get svc
